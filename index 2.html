@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Precise Agriculture Project</title>    
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<meta name="author" content="Ashish Kulkarni">
+	    
+</head>
+	<body>
+		<!-- Connect Us -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="https://www.linkedin.com/in/ashish-kulkarni-0499591ab/" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</span>
+				</a>
+				<a href="https://github.com/ashishk30" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				<a href="mailto:kulkarni.ashish2009@gmail.com" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-google" aria-hidden="true"></i>
+					</span>
+				</a>				
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About Us</a>
+				<a class="nav-item" href="#projects">Database</a>
+				<a class="nav-item" href="#social">Social</a>
+			</div>
+
+			
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Us -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<img class="avatar" src="download.png">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					We are a group of mechanical engineering students from Pimpri Chinchwad College of Engineering Pune who aim to solve problems in a creative way. We have developed a rough template for the purpose of precise Agriculture.
+                    The website aims to collect the data such as moisture content, humidity and temperature with the help of IOT.It will display the current data which will be extracted from the IOT devices. It will help to save water and
+                    will help farmers on a large scale. We are still working on it and will try to devlop it more precisely over a period of time. This is just a basic template of how our website will look and the actual interface is
+                    subjected to change over a period of time with new additions.
+				</p>
+			</div>
+		</section>
+		
+		<!-- Database -->
+		<section  id="Database" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Database</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Humidity-->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="humidity.png" alt="Image showing humidity" style="height: 125px; width: 125px;">
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Here we will display the humidity which will be sensed by the iot device and store the humidity value.
+                                        Farmers can decide wether to water or not after reading this value rather than manually checking it.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Temperature -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="temp.png" alt="Image showing temp" style="height: 125px; width: 125px;">
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Here we will display the temperature which will be sensed by the iot device and store the temperature value.
+                                        Farmers will have a clear picture looking at the temperature too. This will reduce the human effort too.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+                    <!--Moisture Content-->
+                    <div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="mois.png" alt="Image showing temp" style="height: 125px; width: 125px;">
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Here we will display the moisture content in the soil which will be sensed by the iot device and store the moisture value.
+                                        Farmers can then decide how much to water looking at this value.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Connect With us -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Contact Us...</h3>
+                    <head>
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <style>
+                        body {font-family: Arial, Helvetica, sans-serif;}
+                        
+                        /* Full-width input fields */
+                        input[type=text], input[type=address] {
+                          width: 100%;
+                          padding: 12px 20px;
+                          margin: 8px 0;
+                          display: inline-block;
+                          border: 1px solid #ccc;
+                          box-sizing: border-box;
+                        }
+                        
+                        /* Set a style for all buttons */
+                        button {
+                          background-color: #04AA6D;
+                          color: white;
+                          padding: 14px 20px;
+                          margin: 8px 0;
+                          border: none;
+                          cursor: pointer;
+                          width: 100%;
+                        }
+                        
+                        button:hover {
+                          opacity: 0.8;
+                        }
+                        
+                        /* Extra styles for the cancel button */
+                        .cancelbtn {
+                          width: auto;
+                          padding: 10px 18px;
+                          background-color: #f44336;
+                        }
+                        
+                        /* Center the image and position the close button */
+                        .imgcontainer {
+                          text-align: center;
+                          margin: 24px 0 12px 0;
+                          position: relative;
+                        }
+                        
+                        img.avatar {
+                          width: 40%;
+                          border-radius: 50%;
+                        }
+                        
+                        .container {
+                          padding: 16px;
+                        }
+                        
+                        span.add {
+                          float: right;
+                          padding-top: 16px;
+                        }
+                        
+                        /* The Modal (background) */
+                        .modal {
+                          display: none; /* Hidden by default */
+                          position: fixed; /* Stay in place */
+                          z-index: 1; /* Sit on top */
+                          left: 0;
+                          top: 0;
+                          width: 100%; /* Full width */
+                          height: 100%; /* Full height */
+                          overflow: auto; /* Enable scroll if needed */
+                          background-color: rgb(0,0,0); /* Fallback color */
+                          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                          padding-top: 60px;
+                        }
+                        
+                        /* Modal Content/Box */
+                        .modal-content {
+                          background-color: #fefefe;
+                          margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+                          border: 1px solid #888;
+                          width: 80%; /* Could be more or less, depending on screen size */
+                        }
+                        
+                        /* The Close Button (x) */
+                        .close {
+                          position: absolute;
+                          right: 25px;
+                          top: 0;
+                          color: #000;
+                          font-size: 35px;
+                          font-weight: bold;
+                        }
+                        
+                        .close:hover,
+                        .close:focus {
+                          color: red;
+                          cursor: pointer;
+                        }
+                        
+                        /* Add Zoom Animation */
+                        .animate {
+                          -webkit-animation: animatezoom 0.6s;
+                          animation: animatezoom 0.6s
+                        }
+                        
+                        @-webkit-keyframes animatezoom {
+                          from {-webkit-transform: scale(0)} 
+                          to {-webkit-transform: scale(1)}
+                        }
+                          
+                        @keyframes animatezoom {
+                          from {transform: scale(0)} 
+                          to {transform: scale(1)}
+                        }
+                        
+                        /* Change styles for span and cancel button on extra small screens */
+                        @media screen and (max-width: 300px) {
+                          span.add {
+                             display: block;
+                             float: none;
+                          }
+                          .cancelbtn {
+                             width: 100%;
+                          }
+                        }
+                        </style>
+                        </head>
+                        <body>
+                        
+                       
+                        
+                        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Submit</button>
+                        
+                        <div id="id01" class="modal">
+                          
+                          <form class="modal-content animate" action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                              <img src="download.jpg" alt="Avatar" class="avatar">
+                            </div>
+                        
+                            <div class="container">
+                              <label for="name"><b>Farmers Details</b></label>
+                              <input type="text" placeholder="Enter Your Name" name="name" required>
+                        
+                              <label for="add"><b><Address></Address></b></label>
+                              <input type="address" placeholder="Enter Your Address" name="add" required>
+                                
+                              <button type="submit">Submit</button>
+                              <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                              </label>
+                            </div>
+                        
+                            <div class="container" style="background-color:#f1f1f1">
+                              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                             
+                            </div>
+                          </form>
+                        </div>
+                        
+                        <script>
+                        // Get the modal
+                        var modal = document.getElementById('id01');
+                        
+                        // When the user clicks anywhere outside of the modal, close it
+                        window.onclick = function(event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
+                        }
+                        </script>
+                        
+                        </body>
+                        
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<footer>Ashish Kulkarni PCCOE Pune</footer>
+
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
+</html>
+
+
+
+
+
